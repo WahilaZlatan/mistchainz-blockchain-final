@@ -1,0 +1,24 @@
+{
+    "timestamp": 1783714383824,
+    "lastHash": "============GGL Data-sphynx v.1.0=======",
+    "hash": "4f57920d3e7f1089081c3ca8bc2d5decae822dee542a213c10e986eda83ff4a1",
+    "data": [
+        {
+            "_id": "6a3c9774a612bd621f126645",
+            "id": "b9141efc-af76-4136-aa98-dbf3ee6f8f9a",
+            "status": "VERIFIED",
+            "outputMap": {
+                "destination": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELs4ZZD9lgxOWtWfJjpDYT0iGawRGj5C52YmHyfYpmLYfeNfnoxzBzK/VbzRH3LHrgOl2+uaUit5rC9CuSqNl5A==",
+                "data": {
+                    "cipher": "Nas9sQxslZEP+U0LKWV2OeqU1ESGzi9KkQ2gbzytfcIJTqP7wjheyXU8cDTfzvPhA0+tmpisUrvGcnLjsr08CY9BR/di8IB6DxvHBdIM8FCDqhZFUDZthp+76u0/psApJonYrp3E7hN11WoBXL+R41WVHgrxxFRe7Umpw1kchLLhL7cB1wqmZ1FIwRwchd8gle3tXPJe1GyzD0Z4sWAmwQnOOm+RCjxReO4VbhEjithQUpz9U7Aymq9VgR9RSl2dtj6zHxUIxNRybpNK6nYcdCYeRd7uiCwBJ5afI780rtIofX/bvqXv9kvhKMizPZvP"
+                }
+            },
+            "input": {
+                "timestamp": 1782355827466,
+                "address": "ZDX-/U0LKWV2OeqU1ESGzi9KkQ2gbzytfcIJTqP7wjheyXU8cDTfzvPhA0+tmpisUrvGcnLjsr08C5lUFsm2LevelW//m57pnCcmwHAyIgTo0zkKKeA5/jwL+ld3wvg5PA==",
+                "signature": "304502206eaeb5be55623f8fdda003025f1c2e280ecc13ca3faf85f45d723a38c5dd0129022100cf20d176bc6702692a8f8bfda066a736df356181c696e8dff3f1c349bbf342f9"
+            }
+        }
+    ],
+    "miner": "0c20fc67-178b-4703-9b15-cd4cb02361b3"
+}

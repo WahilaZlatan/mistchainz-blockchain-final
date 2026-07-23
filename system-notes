@@ -1,0 +1,15 @@
+1. create a cron job using the nestjs cron library that will run after every 1 minute firing the start mining function, these function will first check if the the is boot node property is true then it will fetch all peer ids from the peers channel on pubnub after which it will map them to a new property called peers if they dont exist. it will then get the length of the peers and check if it is greater than or equals to the MAX_PEERS property under the blockchain config file if this is true it will set the mining started true, then it will select the next peerid in the chain and send it a message to start mining transactions from the blockchain(done)
+2. create a service under the transactions module that connects to a nats sever with a jetstream channel called BLOCKCHAIN_TRANSACTIONS on module initialization the class also has a function that enables it to read transactions published and return them as an array
+3. before getting the next-miner check whether the peers array has a next element from the current index to check
+   whether we have reached the end of the array. id we have reached the end of the array go back to the second item in our
+   array and select it as the next miner. the boot node which is the first peer does not mine(done)
+
+
+
+
+Thing	What it means
+Redis still required	Bull queues need Redis running on the target machine. The exe does not embed Redis — users must install it separately or point REDIS_HOST/REDIS_PORT env vars at a hosted Redis.
+PubNub	Works fine — it's a cloud API over HTTPS, nothing native.
+Native .node files	If any dependency has a prebuilt native addon (.node file), pkg copies it next to the exe automatically but it must stay in the same folder. Run the exe from its directory or set NODE_PATH.
+Node version in targets	@yao-pkg/pkg currently supports up to Node 22. Your dev machine runs Node 24 but the compiled JS is fully compatible.
+PORT env var	Set it before running: PORT=3001 ./GGL-DS-MIST-linux on Linux/macOS, or $env:PORT=3001; .\GGL-DS-MIST-win.exe in PowerShell.
