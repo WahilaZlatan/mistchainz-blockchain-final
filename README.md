@@ -93,8 +93,7 @@ npm start
 | POST | `/wallets` | Create a new wallet |
 | GET | `/wallets` | Get all wallets |
 | GET | `/wallets/:address` | Get wallet by address |
-| GET | `/wallets/:address/balance` | Get wallet balance |
-| POST | `/wallets/:address/balance` | Set wallet balance |
+
 
 ### Transaction Endpoints
 
